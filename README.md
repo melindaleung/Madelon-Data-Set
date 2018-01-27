@@ -31,21 +31,23 @@ The purpose of this dataset is to explore the cabilities of machine learning und
 
 The dataset contains 3 sets: training, validation, and test set. It consists of 500 features, of which 480 are probes and 20 are real. Based on those features, one must separate it into *+1* or *-1*. There are 2200 positive examples and 2200 negative examples. All values are integers.
 
-Here is a distribution of the examples:
-| **Set** | **Positive Examples** | **Negative Examples** | **Total** |
-| :---: | :---: | :---: | :---: |
-| Training Set | 1000 (45%) | 1000 (45%) | 2000 | 
-| Validation Set | 300 (14%) | 300 (14%) | 600 |
-| Test Set | 900 (41%) | 900 (41%) | 1800 | 
-| Total | 2200 | 2200 | 4400 |
+Here is a distribution of the examples:  
 
-Data on the data sets, their dimensions, and memory usage follow:
-| **Set** | **Dimensions** | **Memory (in MB)** |
-| :---: | :---: | :---: |
-| Training Set | 2000 x 500 | 6.9 |
-| Validation Set | 599 x 500 | 1.2 |
-| Test Set | 1800 x 500 | 3.5 | 
-| Labels | 2000 x 1 | 0.0085 |
+| Set | Positive Examples | Negative Examples | Total |  
+|-----|----|-----|----|  
+| Training Set | 1000 (45%) | 1000 (45%) | 2000 |   
+| Validation Set | 300 (14%) | 300 (14%) | 600 |  
+| Test Set | 900 (41%) | 900 (41%) | 1800 |   
+| Total | 2200 | 2200 | 4400 |  
+
+Data on the data sets, their dimensions, and memory usage follow:  
+
+| Set            | Dimensions | Memory (in MB) |
+|----------------|------------|----------------|
+| Training Set   | 200 x 500  | 6.9            |
+| Validation Set | 600 x 500  | 1.2            |
+| Test Set       | 1800 x 500 | 3.5            |
+| Labels         | 2000 x 1   | .0085          |
 
 The data set is considered dense, that is all rows are populated and no values are missing. It is a multivariate data set with a bimodal distribution.
 
